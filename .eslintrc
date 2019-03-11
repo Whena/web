@@ -1,0 +1,30 @@
+{
+    "root": true,
+    "extends": [
+      "airbnb",
+      "react/recommended"
+    ],
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "plugins": [
+      "prettier",
+      "import"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "mocha": true
+    },
+    "rules": {
+      "no-console": "error",
+      "comma-dangle": "off"
+    }
+  }
+  
